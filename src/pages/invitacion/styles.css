@@ -18,11 +18,13 @@
   }
   p {
     text-align: center;
-    width: 50%;
+    width: 72%;
     color: white;
     font-size: 0.9rem;
     font-weight: 700;
-    position: relative; }
+    margin: 0.6rem;
+    position: relative;
+   }
   body, div {
     margin: 0 !important;
     padding: 0 !important;

@@ -5,6 +5,7 @@ function Invitacion() {
   return (
     <div>
         <div className="container-inv"> 
+        <img className='img-2' src={Img} alt="" />
            <p>Estoy muy emocionada de invitarte a mi fiesta de 15 años. En este día tan especial, quiero rodearme de amor y amistad:</p>
 
 <p>"En el camino de la vida, las personas que nos rodean son como estrellas que iluminan nuestras noches más oscuras y guían nuestros pasos. He sido bendecida con amigos y familiares que han llenado mi mundo de amor y apoyo"</p>

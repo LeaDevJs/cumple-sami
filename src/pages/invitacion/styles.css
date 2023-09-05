@@ -1,24 +1,28 @@
 .container-inv {
-    position: relative; /* Importante: para que los elementos posicionados se ajusten a este contenedor */
+     /* Importante: para que los elementos posicionados se ajusten a este contenedor */
     display: flex;
     align-items: center;
     justify-content: center; /* Para que el contenedor no tenga más ancho que la imagen */
-    background-image: url("../invitacion/imgInv.jpg");
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+    background-color: black;
+  }
+  .img-2{
+    width: 100%;
+    height: 100%;
     background-size: cover;
     background-position: center;
-    width: 100%;
-    height: 99vh;
-    flex-direction: column;
+    position: fixed;
+    opacity: 0.6;
   }
-  
   p {
     text-align: center;
     width: 50%;
     color: white;
     font-size: 0.9rem;
     font-weight: 700;
-
-  }
+    position: relative; }
   body, div {
     margin: 0 !important;
     padding: 0 !important;

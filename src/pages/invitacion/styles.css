@@ -52,6 +52,7 @@
     align-items: center;
     justify-content: center;
     margin-top: 100px !important;
+    position: fixed;
 }
   body, div {
     margin: 0 !important;

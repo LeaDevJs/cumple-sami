@@ -3,7 +3,7 @@ import "../loading/styles.css"
 const Loading = () => {
   return (
     <div className="loading">
-      <p>Cargando...</p>
+      <p style={{color:"white"}}>Cargando...</p>
     </div>
   );
 };

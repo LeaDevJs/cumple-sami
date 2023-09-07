@@ -1,8 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
 .container-inv {
-     /* Importante: para que los elementos posicionados se ajusten a este contenedor */
     display: flex;
     align-items: center;
-    justify-content: center; /* Para que el contenedor no tenga más ancho que la imagen */
+    justify-content: center; 
     width: 100%;
     height: 100vh;
     flex-direction: column;
@@ -44,6 +44,7 @@
     font-weight: 700;
     margin: 0.4rem;
     position: relative;
+    font-family: 'Dancing Script', cursive;
    }
   body, div {
     margin: 0 !important;

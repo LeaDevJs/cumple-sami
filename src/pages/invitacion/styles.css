@@ -38,7 +38,7 @@
   }
   p {
     text-align: center;
-    width: 72%;
+    width: 100%;
     color: black;
     font-size: 13px;
     font-weight: 700;
@@ -53,6 +53,7 @@
     justify-content: center;
     margin-top: 40px !important;
     position: fixed;
+    width: 65%;
 }
   body, div {
     margin: 0 !important;

@@ -12,6 +12,13 @@ function Invitacion() {
     }, 1000); 
   }, []);
 
+  function enviarWhatsApp() {
+    var numeroTelefono = '1123224565'; // Reemplaza con el número de teléfono deseado
+    var mensaje = 'Hola, te confirmo mi asistencia!'; // Reemplaza con el mensaje deseado
+    var url = `https://wa.me/${numeroTelefono}?text=${encodeURIComponent(mensaje)}`;
+    
+    window.location.href = url;
+}
   return (
     <div>
       {loading ? (
@@ -26,16 +33,27 @@ function Invitacion() {
 
           <p>Te invito a unirte a nosotros para celebrar la importancia de las personas en mi vida en una velada formal llena de alegría y gratitud.</p>
 
-          <p>Fecha: [Fecha del evento]</p>
-          <p>Hora: [Hora del evento]</p>
-          <p>Lugar: [Dirección del evento]</p>
+          <p>Fecha: 02/12/2023</p>
+          <p>Hora: 21HS.</p>
+          <p>Lugar: Jujuy 1856 (Pres. Derqui.)</p>
 
           <p>Por favor, confirma tu asistencia antes del [Fecha de confirmación] para que pueda asegurarme de que este día sea aún más especial.</p>
 
           <p>Espero contar con tu presencia en esta ocasión tan significativa.</p>
 
           <p>Con cariño, Samira.</p>
+          <div className="wrapper">
+          <button onClick={enviarWhatsApp}>
+            Confirma tu asistencia 
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+</div>
+
           </div>
+          
         </div>
       )}
     </div>

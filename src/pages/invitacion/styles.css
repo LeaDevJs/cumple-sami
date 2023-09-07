@@ -14,26 +14,26 @@
     background-position: center;
     position: fixed;
     animation: opacityAnimation 2s infinite alternate;
-    opacity: 0.4;
+    opacity: 0.8;
   }
   @keyframes opacityAnimation {
     0%, 100% {
-      opacity: 0.4;
+      opacity: 0.8;
     }
     10%, 90% {
-      opacity: 0.42;
+      opacity: 0.82;
     }
     20%, 80% {
-      opacity: 0.44;
+      opacity: 0.84;
     }
     30%, 70% {
-      opacity: 0.46;
+      opacity: 0.86;
     }
     40%, 60% {
-      opacity: 0.48;
+      opacity: 0.88;
     }
     50% {
-      opacity: 0.5;
+      opacity: 0.90;
     }
   }
   p {

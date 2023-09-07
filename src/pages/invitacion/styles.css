@@ -40,7 +40,7 @@
     text-align: center;
     width: 100%;
     color: black;
-    font-size: calc(15px + 0.1 * ((100vw - 455px) / 12));
+    font-size: calc(13px + 0.1 * ((100vw - 455px) / 12));
     font-weight: 700;
     margin: 0.2rem;
     position: relative;

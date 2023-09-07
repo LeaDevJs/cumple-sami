@@ -33,16 +33,15 @@
   font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
     Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,
     Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
-  font-size: 100%;
-  line-height: 1.5;
+    font-size: 70%;
+    line-height: 0.5;
   margin: 0;
   -webkit-mask-image: -webkit-radial-gradient(#000, #fff);
   padding: 0;
   position: fixed !important;
-  bottom: 0 !important;
+  bottom: 17% !important;
   left: 50% !important; 
   transform: translateX(-50%) !important; 
-  margin-bottom: 7rem;
   animation: opacityAnimationBtn 2s infinite alternate;
   opacity: 0.8;
 }

@@ -33,7 +33,7 @@ function Invitacion() {
 
           <p>Espero contar con tu presencia en esta ocasión tan significativa.</p>
 
-          <p>Con cariño, Samira</p>
+          <p>Con cariño, Samira.</p>
         </div>
       )}
     </div>

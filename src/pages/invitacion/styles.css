@@ -46,6 +46,13 @@
     position: relative;
     font-family: 'Dancing Script', cursive;
    }
+   .container-p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px !important;
+}
   body, div {
     margin: 0 !important;
     padding: 0 !important;

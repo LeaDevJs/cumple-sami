@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Loading from "../../components/loading";
 import "../invitacion/styles.css";
-import Img from "../invitacion/imgInv.jpg";
+import Img from "../invitacion/bg.jpeg";
 
 function Invitacion() {
   const [loading, setLoading] = useState(true);
@@ -19,6 +19,7 @@ function Invitacion() {
       ) : (
         <div className="container-inv">
           <img className='img-2' src={Img} alt="" />
+          <div className="container-p">
           <p>Estoy muy emocionada de invitarte a mi fiesta de 15 años. En este día tan especial, quiero rodearme de amor y amistad:</p>
 
           <p>"En el camino de la vida, las personas que nos rodean son como estrellas que iluminan nuestras noches más oscuras y guían nuestros pasos. He sido bendecida con amigos y familiares que han llenado mi mundo de amor y apoyo"</p>
@@ -34,6 +35,7 @@ function Invitacion() {
           <p>Espero contar con tu presencia en esta ocasión tan significativa.</p>
 
           <p>Con cariño, Samira.</p>
+          </div>
         </div>
       )}
     </div>

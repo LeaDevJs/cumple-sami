@@ -14,7 +14,7 @@ function Invitacion() {
 
   function enviarWhatsApp() {
     var numeroTelefono = '5491132944807'; // Reemplaza con el número de teléfono deseado
-    var mensaje = `Hola, estoy feliz de confirmarte mi asistencia  🎉 😄 😎  🎉 `; // Reemplaza con el mensaje deseado
+    var mensaje = `¡Hola!¡Estoy feliz de confirmarte mi asistencia!  🎉 😄 😎  🎉 `; // Reemplaza con el mensaje deseado
     var url = `https://wa.me/${numeroTelefono}?text=${encodeURIComponent(mensaje)}`;
     
     window.location.href = url;

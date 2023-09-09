@@ -35,7 +35,7 @@ function Invitacion() {
 
           <p>Fecha: 02/12/2023</p>
           <p>Hora: 21HS.</p>
-          <p>Lugar: Jujuy 1856 (Pres. Derqui.)</p>
+          <a target='_blank' href={"https://goo.gl/maps/T4db1dPoaUawJhMC7"}> <p className='texto-con-efecto'>Lugar: Jujuy 1856 (Pres. Derqui.)</p></a>
 
           <p>Por favor, confirma tu asistencia antes del [Fecha de confirmación] para que pueda asegurarme de que este día sea aún más especial.</p>
 
